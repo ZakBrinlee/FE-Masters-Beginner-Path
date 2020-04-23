@@ -31,18 +31,18 @@
     * Great for deep linking on the page
 
 **Meta HTML:**
-  * <!DOCTYPE html>
+  * `<!DOCTYPE html>`
     * Lets the browser know we are doing HTML5
     * Has to be the first line of the code/page
-  * <html lang='en'>
+  * `<html lang='en'>`
     * Start of the document
     * lang - sets the language
-  * <head>
+  * `<head>`
     * Includes the meta information for the document
-  * <body>
+  * `<body>`
     * content to be displayed
     * visual html
-  * <script><link><style>
+  * `<script><link><style>`
     * used for bringing in Javascript/CSS/or outside document resources
 
 **Basic CSS:**
@@ -60,7 +60,7 @@
     * more specific rules will win over less specific rules/selectors
   * Classes are more specific than tags
     * .title {} will override h1 {}
-    * <h1 class='title'>example</h1>
+    * `<h1 class='title'>example</h1>`
   * Good example: giving selector blocks number values
     * 10 points for each class selector
     * 1 point for each tag select
