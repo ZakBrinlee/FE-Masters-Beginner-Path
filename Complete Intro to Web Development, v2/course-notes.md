@@ -1,6 +1,6 @@
 # Complete Intro to Web Development, v2 #
-* [Frontend Masters Course](https://btholt.github.io/intro-to-web-dev-v2/) *
-* [Presentation slides/application](https://btholt.github.io/intro-to-web-dev-v2/) *
+*[Frontend Masters Course](https://btholt.github.io/intro-to-web-dev-v2/)*
+*[Presentation slides/application](https://btholt.github.io/intro-to-web-dev-v2/)*
 ## Takeaways: ##
 
 ## Tips & Trips: ##
