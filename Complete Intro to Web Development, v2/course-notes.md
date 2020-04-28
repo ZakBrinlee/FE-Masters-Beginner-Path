@@ -1,6 +1,6 @@
 # Complete Intro to Web Development, v2 #
-* [Frontend Masters Course](https://btholt.github.io/intro-to-web-dev-v2/) *
-* [Presentation slides/application](https://btholt.github.io/intro-to-web-dev-v2/) *
+*[Frontend Masters Course](https://btholt.github.io/intro-to-web-dev-v2/)*
+*[Presentation slides/application](https://btholt.github.io/intro-to-web-dev-v2/)*
 ## Takeaways: ##
 
 ## Tips & Trips: ##
@@ -113,12 +113,21 @@
   * When to use Cascade
     * When you need graniular control over a styled element
     * Should keep in same page/sheet if possible
-  
-
 
 **Project: HTML & CSS:**
+  * Built a simple web page - main exercise of html and css
 
 **Programming Fundamentals:**
+  * JavaScript is 'single-threaded'
+    * only one thing can happen at a time
+  * ASI - automatic-semicolon-insertion
+    * Javascript has ASI built in
+  * '`' - using backtick for a string is called a *template-string*
+    * use with `${variable-here}`
+  * Javascript has *one* type of type for numbers - *Number*
+    * whole numbers and floats are *not* different in Javascript, it is all of `number` type
+  * math is tricky with JS because of only one type for number representation
+  * 
 
 **Functions and Scope:**
 
