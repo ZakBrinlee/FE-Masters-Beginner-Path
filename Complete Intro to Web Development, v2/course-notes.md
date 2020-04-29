@@ -3,7 +3,11 @@
 
 
 *[Presentation slides/application](https://btholt.github.io/intro-to-web-dev-v2/)*
-## Takeaways: ##
+
+## TODO: ##
+  * Look into window functions
+  * Learn more about the Event and it's properties
+    * https://developer.mozilla.org/en-US/docs/Web/API/Event/Event
 
 ## Tips & Trips: ##
   * webfonts usually are a few 100kbs and make the page load heavier - try not to use
@@ -16,6 +20,7 @@
   * Learn more about Emmet abbreviations and being proficent.
   * Awesome course to learn Flexbox - [Flexbox Zombies](https://geddski.teachable.com/p/flexbox-zombies)
   * Awesome way to learn Flexbox interactively - [Flexbox Froggy](https://flexboxfroggy.com/)
+  * *`this`* in Javascript is referring to the Global context of `window` when in a browser
 
 ## sections ##
 
@@ -129,14 +134,12 @@
   * Javascript has *one* type of type for numbers - *Number*
     * whole numbers and floats are *not* different in Javascript, it is all of `number` type
   * math is tricky with JS because of only one type for number representation
-  * 
-
-**Functions and Scope:**
-
-**Objects and Arrays:**
 
 **The DOM:**
-
+  * Document Object Model
+    * Bridge between how JS interacts with HTML/CSS
+  * Event Delegation
+    * Using a listener on a container/parent that will listen for events on children which 'bubble up' to the parent
 **JavaScript, HTML, and CSS Project:**
 
 **AJAX:**

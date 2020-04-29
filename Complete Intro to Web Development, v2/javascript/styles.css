@@ -1,0 +1,57 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 40px;
+  font-family: monospace;
+}
+
+.container {
+  margin-top: 10%;
+  background-color: black;
+  color: white;
+}
+
+.btn {
+  font-size: 40px;
+  width: 25%;
+  padding: 20px;
+  cursor: pointer;
+  background-color: rgb(207, 207, 207);
+  border: 1px solid black;
+}
+
+.btn:hover {
+  background-color: rgb(230, 230, 230);
+}
+
+.btn:active {
+  background-color: rgb(160, 160, 160);
+}
+
+.btn:last-child {
+  background-color: rgb(184, 121, 5);
+  color: white;
+}
+
+.readout {
+  text-align: right;
+  padding: 5px;
+}
+
+.row {
+  display: flex;
+  justify-content: space-between;
+}
+
+.two {
+  width: 50%;
+}
+
+.three {
+  width: 75%;
+}
