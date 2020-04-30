@@ -10,6 +10,9 @@
     * https://developer.mozilla.org/en-US/docs/Web/API/Event/Event
   * Look into Express and play around with it
     * [Express](https://expressjs.com/)
+  * Contribute to open source projects
+    * Look for certain tags such as - 'Good first issue' in github repos and websites
+    * github - React has a bunch of these good first issues as well as difficulty labels
 
 ## Tips & Trips: ##
   * webfonts usually are a few 100kbs and make the page load heavier - try not to use
@@ -181,7 +184,8 @@
     * `:wq` - save and quit/close vim
     * `:q!` - quit without saving
 **Node.js:**
-
-**Deploying Your App:**
+  * Node allows JavaScript to be executed outside of the browser
+  * Uses JS to write a tool that bundles the code so it can be served to a user
 
 **Final Thoughts:**
+  * Look into contributing to open source projects and development community
