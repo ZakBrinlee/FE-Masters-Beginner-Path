@@ -183,13 +183,10 @@
     * `:q` - quit and close vim
     * `:wq` - save and quit/close vim
     * `:q!` - quit without saving
-<<<<<<< HEAD
+
 **Node.js:**
   * Node allows JavaScript to be executed outside of the browser
   * Uses JS to write a tool that bundles the code so it can be served to a user
 
 **Final Thoughts:**
   * Look into contributing to open source projects and development community
-=======
-
->>>>>>> 95c5098943eef7fe519b3a905345e586e7431c2b
