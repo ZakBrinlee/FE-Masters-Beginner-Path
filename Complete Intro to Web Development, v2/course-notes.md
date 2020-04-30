@@ -180,8 +180,4 @@
     * `:q` - quit and close vim
     * `:wq` - save and quit/close vim
     * `:q!` - quit without saving
-**Node.js:**
 
-**Deploying Your App:**
-
-**Final Thoughts:**
