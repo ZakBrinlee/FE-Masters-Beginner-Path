@@ -8,6 +8,8 @@
   * Look into window functions
   * Learn more about the Event and it's properties
     * https://developer.mozilla.org/en-US/docs/Web/API/Event/Event
+  * Look into Express and play around with it
+    * [Express](https://expressjs.com/)
 
 ## Tips & Trips: ##
   * webfonts usually are a few 100kbs and make the page load heavier - try not to use
@@ -21,6 +23,10 @@
   * Awesome course to learn Flexbox - [Flexbox Zombies](https://geddski.teachable.com/p/flexbox-zombies)
   * Awesome way to learn Flexbox interactively - [Flexbox Froggy](https://flexboxfroggy.com/)
   * *`this`* in Javascript is referring to the Global context of `window` when in a browser
+  * [ohshitgit](https://ohshitgit.com/)
+    * Cheat sheet for when you mess something up in git
+  * Guide for licenses for open source code/projects
+    * [Choose a License](https://choosealicense.com/)
 
 ## sections ##
 
@@ -141,13 +147,39 @@
   * Event Delegation
     * Using a listener on a container/parent that will listen for events on children which 'bubble up' to the parent
 **JavaScript, HTML, and CSS Project:**
+  * Could expand it to take multiple math functions in a row
 
 **AJAX:**
+  * AJAX = asynchronous JavaScript and XML
+    * asynchronous function for requesting data
+    * can 'chain' functions to a promise using 'then()'
 
 **Integrating with Other People's Libraries:**
+  * Parcel JS
+    * web application bundler
+    * https://parceljs.org/
+    * OOTB support for bundling all assets
 
 **Git and Bash:**
-
+  * `pwd` - print working directory
+    * shows where you are
+  * `ls` - list
+    * shows what files/folders are in your current location
+    * `ls-l` - calls ls with flag which is long output
+    * `ls -lah` - shows all files including hidden
+      * `-a` is for hidden files, `-h` shows files sizes more readable
+  * `man la` - short for manual. It will show the documentation for `ls`
+  * `mkdir` - This will create a new directory - follow with `ls` to show the new directory
+  * `cd` - Change directory
+  * `touch` - creates an empty file where-ever you tell it to.
+  * `code` - can open VSCode directly from bash
+    * `code index.html` - will open just the index.html file
+    * `code .` - will open the whole directory
+  * `vi` - will open vim editor. 
+    * `:w` - save changes
+    * `:q` - quit and close vim
+    * `:wq` - save and quit/close vim
+    * `:q!` - quit without saving
 **Node.js:**
 
 **Deploying Your App:**

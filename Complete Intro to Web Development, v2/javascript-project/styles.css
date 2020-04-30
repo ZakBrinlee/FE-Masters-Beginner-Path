@@ -38,6 +38,14 @@ body {
   color: white;
 }
 
+.btn:last-child:hover {
+  background-color: rgb(219, 145, 7);
+}
+
+.btn:last-child:active {
+  background-color: rgb(150, 97, 0);
+}
+
 .readout {
   text-align: right;
   padding: 5px;
