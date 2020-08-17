@@ -6,6 +6,8 @@ JS From Fundamentals to Functional JS, v2
 
 ## Tips & Trips: ##
   * Some developer tools in browsers will only show numerical indices when logging 
+  * `_.each()` - part of built in JS library
+    * works with lists and objects
 
 ## sections ##
 
@@ -47,12 +49,24 @@ JS From Fundamentals to Functional JS, v2
       * Weird Characters
       * Expressions
   * Destructuring
+    * Useful for arrays/objects for faster and more readable variables
 
 **List Transformations**
-  * 
+  * `for` loops are good for arrays because the iterator can be matched with array indecies
+  * Mostly around how to loop over arrays and objects
+  * Use `for…of` to iterate over the values in an iterable, like an array
+    * Strings are also an iterable type, so you can use for…of on strings
+    * You can also iterate over maps, sets, generators, DOM node collections and the arguments object available inside a functions
+  * Use `for…in` to iterate over the properties of an object (the object keys)
+    * You can also use `for…in` to iterate over the index values of an iterable like an array or a string
 
 **.forEach() Function**
-  * 
+  * `_.each(list, callback/iterator function(value, index, list){})`
+  * `list.forEach(callback/iterator function(value, index, list){})`
+    * Iterates over a **list** of elements, passing the values to a function
+    * Each invocation of iterator, the function, is called with three arguments
+      * (element, index, list)
+      * If list is a JS object, iterator's arguments will be (value, key, list)
 
 **.map() Function**
   * 
